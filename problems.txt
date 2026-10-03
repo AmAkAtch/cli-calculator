@@ -1,0 +1,13 @@
+1. Code was not checking if the number was big or not unless given second time
+
+2. Only second time choice is being count as choice -> I was just calling function two times. 
+
+3. try:
+        num1 = float(input("First Number:"))
+        num2 = float(input("Second Number:"))
+    except:
+        print('Please enter valid number')
+    return num1, num2
+
+    -> I was returning num1, num2 after the excpet was done, so I was returning empty value and error was throwing
+
