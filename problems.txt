@@ -11,3 +11,8 @@
 
     -> I was returning num1, num2 after the excpet was done, so I was returning empty value and error was throwing
 
+4. Same git reltaed problems, I think will get the hang of it once I do this for some more projects
+    - git init <name> #have to give repo name
+    - git add <filename>
+    - git remote add <name> <online git hub path>
+    - git push --set-upstream <name> <branchname>
